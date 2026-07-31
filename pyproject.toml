@@ -1,0 +1,18 @@
+[project]
+name = "examen-fastapi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.141.1",
+    "sqlmodel>=0.0.39",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.1",
+]
+
+[tool.ruff.lint]
+select = ["E", "F","I"]
