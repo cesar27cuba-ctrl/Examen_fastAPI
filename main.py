@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-from sqlmodel import SQLModel
 
 app = FastAPI()
 
